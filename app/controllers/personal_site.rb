@@ -5,7 +5,7 @@ class PersonalSite
     case env["PATH_INFO"]
     when '/' then index
     when '/about' then about
-    when '/main.css' them css
+    when '/main.css' then css
     else
       error
     end
